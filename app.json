@@ -1,0 +1,38 @@
+{
+  "name": "Bora",
+  "subtitle": "Miam miam",
+  "description": "Installe",
+  "iconURL": "https://example.com/source_icon.png",
+  "headerURL": "https://example.com/source_header.png",
+  "tintColor": "#F54F32",
+  "featuredApps": ["com.fwutre.bora"],
+  "apps": [
+    {
+      "name": "Bora",
+      "bundleIdentifier": "com.example.bora",
+      "developerName": "Liste Bora",
+      "subtitle": "L'app de la liste.",
+      "localizedDescription": "Application de la liste Bora.",
+      "iconURL": "https://example.com/myapp_icon.png",
+      "tintColor": "#F54F32",
+      "category": "utilities",
+      "versions": [
+        {
+          "version": "1.0",
+          "date": "2024-05-09",
+          "localizedDescription": "Première release",
+          "downloadURL": "https://expo.dev/artifacts/eas/hk9c9d54aTDYnjikuVEz3r.ipa",
+          "size": 79821,
+          "minOSVersion": "12.0",
+          "maxOSVersion": "17.5"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [
+        ],
+        "privacy": {
+        }
+      }
+    }
+  ]
+}
